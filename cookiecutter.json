@@ -1,0 +1,8 @@
+{
+    "project_name": "Python Project",
+    "repository_name": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
+    "package_name": "{{ cookiecutter.repository_name|replace('-', '_') }}",
+    "project_url": "https://pypi.org/project/{{package_name}}",
+    "author_name": "Anonymous",
+    "author_email": "unknown@example.com"
+}
